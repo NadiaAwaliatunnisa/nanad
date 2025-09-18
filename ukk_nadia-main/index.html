@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./vendor/bs/bs.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <title>SMK NEGERI 4 TASIKMALAYA</title>
+
+  <style>
+  .navbar-nav .nav-link {
+    color: #fd7c7c; /* Warna teks awal */
+    font-weight: 500;
+    transition: all 0.3s ease;
+    display: inline-block;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: #fa0404; /* Tetap merah saat hover */
+    border-radius: 5px;
+    padding: 6px 12px;
+  }
+
+  .card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .card-hover:hover {
+    transform: translateY(-5px); /* Kartu naik sedikit */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25); /* Bayangan lebih dalam */
+  }
+</style>
+
+</head>
+<body>
+  
+  <!-- SECTION NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-danger bg-danger-subtle mt-5 shadow-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img width="50px" src="https://lh6.googleusercontent.com/proxy/J0uUgN9rljxwFf9UmlAP1z5COJfb0t5Y5DMSdr5AhvayemVcRVMF8PAbUOEM-4nwGnCZsNm6Vy4X2ppOnx0SKyU" alt=""> SMK NEGERI 4 TASIKMALAYA
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="profil.html">Profil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ekstrakurikuler.html">Ekstrakurikuler</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="galeri.html">Galeri</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Berita.html">Berita</a>
+            </li>
+
+        </div>
+      </div>
+    </nav>
+  <!-- TUTUP SECTION NAVBAR -->
+  
+  <!--  SECTION Carousel -->
+<div id="carouselExampleFade" class="carousel slide carousel-fade">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img width="100%" height="600%" src="SMK NEGERI 42.jpg" class="d-block w-100" alt="...">
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  <!-- TUTUP SECTION Carousel -->
+
+
+    <!-- Section Sambutan Kepala Sekolah -->
+<section class="mt-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <div class="row g-4 align-items-center">
+          <!-- Gambar Kepala Sekolah -->
+          <div class="col-12 col-md-4 text-center">
+            <img
+              src="https://web-sekolah-tawny.vercel.app/_nuxt/kepsek.CbMn245o.png"
+              alt="Kepala Sekolah"
+              class="img-fluid rounded shadow"
+              style="max-width: 250px;"
+            />
+          </div>
+
+          <!-- Sambutan -->
+          <div class="col-12 col-md-8">
+            <div class="card shadow">
+              <div class="card-body">
+                <h4 class="card-title text-danger-emphasis mb-2">Sambutan Kepala Sekolah</h4>
+                <h5 class="card-title">Assalamualaikum Warahmatullahi Wabarakatuh</h5>
+                <p class="card-text mt-3">
+                  Selamat datang di SMKN 4 Tasikmalaya. Segala puji dan syukur kita panjatkan ke hadirat Allah SWT, semoga kita semua ada dalam lindungan-Nya. Dan atas perkenan-Nya pula kami dapat menghadirkan website SMK Negeri 4 Tasikmalaya ini.
+                </p>
+                <p class="card-text">
+                  Kami berharap dengan adanya website ini, para pengunjung dapat mengenal lebih jauh tentang sekolah kami sehingga dapat mempererat tali silaturrahmi antara sekolah dengan masyarakat demi kemajuan kita bersama.
+                </p>
+                <p class="card-text">
+                  Tiada gading yang tak retak, website kami ini masih dalam proses pengembangan dan masih banyak kekurangan yang harus kami perbaiki. Kritik dan saran yang membangun sangat kami harapkan untuk pengembangan ke depan.
+                </p>
+                <p class="card-text">
+                  Akhirnya, saya mengucapkan terima kasih yang sebesar-besarnya kepada semua pihak atas segala bantuan dan fasilitas yang telah diberikan. Semoga semua yang kita lakukan bermanfaat bagi masyarakat.
+                </p>
+                <p class="card-text">
+                  Wassalamu'alaikum Warahmatullahi Wabarakatuh.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- End Sambutan -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Section Sambutan Kepala Sekolah -->
+
+
+
+
+    <!-- Section Berita -->
+<section class="mt-5">
+  <div class="container">
+    <div class="text-center mb-4">
+      <h2 class="fw-bold">Berita</h2>
+    </div>
+
+    <div class="row g-4">
+      <!-- Berita 1 -->
+      <div class="col-lg-6">
+        <div class="card shadow h-100">
+          <img 
+            src="https://newstasikmalaya.com/storage/kapolsek-cibeureum-berikan-penyuluhan.jpg" 
+            alt="Kapolsek Cibeureum Berikan Penyuluhan" 
+            class="card-img-top img-fluid rounded"
+          >
+          <div class="card-body">
+            <h5 class="card-title">
+              Kapolsek Cibeureum Berikan Penyuluhan Tentang Larangan Knalpot Brong dan Geng Motor di SMKN 4 Tasikmalaya
+            </h5>
+            <a href="#" class="btn btn-danger mt-2">Baca selengkapnya</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Berita 2 -->
+      <div class="col-lg-6">
+        <div class="card shadow h-100">
+          <img 
+            src="https://ruangatas.com/wp-content/uploads/2023/10/Picsart_23-10-12_16-15-19-734-scaled.jpg" 
+            alt="SMKN 4 Tasikmalaya Gelar Job Fair" 
+            class="card-img-top img-fluid rounded"
+          >
+          <div class="card-body">
+            <h5 class="card-title">
+              SMKN 4 Tasikmalaya Gelar Job Fair 2023, Harapkan Angka Pengangguran di Tasikmalaya Berkurang
+            </h5>
+            <a href="#" class="btn btn-danger mt-2">Baca selengkapnya</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Section Berita -->
+
+
+
+    <!--  section Galeri -->
+      <div class="row mt-5">
+        <div class="col-lg-12 text-center">
+          <h2>Galeri</h2>
+        </div>
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="card shadow">
+                <div class="card-body">
+                  <img width="100%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxzGQMIldQb-IhW0F62OhPOj8PaMGcoBXH0w&s" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card shadow">
+                <div class="card-body">
+                  <img width="100%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_tdVBp0tdXGOKZKFqFMZu8AFPY5U9VpZA_A&s" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card shadow">
+                <div class="card-body">
+                  <img width="100%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ12u7ll7kg9V_zU2DUJ9BBGOVjFRBb5bIHBA&s" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card shadow">
+                <div class="card-body">
+                  <img width="100%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC_MkpCfE4VmMWTh4Lsy08vDTOmZLfXLdBjQ&s" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center my-4">
+            <a class="btn btn-outline-danger" href="">Lihat Lebih Banyak</a>
+          </div>
+        
+      </div>
+    <!--  Tutup section Galeri -->
+
+    
+    <!--  section Statistik -->
+        <div class="row mt-5">
+          <div class="col-lg-12">
+            <div class="card text-center bg-danger-subtle my-4">
+            <h2><i class="bi bi-reception-4"></i>Data Statistik</h2>
+            </div>
+              <div class="row">
+                <div class="col-3"><br>
+                  <div class="card text-center">
+                    <div class="card-body btn btn-outline-danger shadow">
+                      <h3>1560</h3>
+                      Jumlah Peserta didik
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3"><br>
+                  <div class="card text-center">
+                    <div class="card-body btn btn-outline-danger shadow">
+                      <h2>100</h2>
+                      Guru
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3"><br>
+                  <div class="card text-center">
+                    <div class="card-body btn btn-outline-danger shadow">
+                      <h2>45</h2>
+                      Rombel
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3"><br>
+                  <div class="card text-center">
+                    <div class="card-body btn btn-outline-danger shadow">
+                      <h2>5</h2>
+                      Program Keahlian
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+    <!--  Tutup section Statistik -->
+</div>
+        </div> 
+    <!-- section  Profil Jurusan -->
+        <div class="col-lg-15 mt-5">
+  <div class="card text-center">
+    <div class="card-body bg-danger text-white">
+      <h3>Konsentrasi Keahlian</h3>
+    </div>
+  </div>
+</div>
+
+    <div class="container">
+      <div class="row justify-content-center">
+
+        <!-- jurusan PPLG -->
+        <div class="card mb-3 mt-5 bg-success-subtle shadow card-hover" style="max-width: 900px;">
+          <div class="row g-0">
+            <div class="col-md-2">
+              <img width="100%" src="https://web-sekolah-tawny.vercel.app/_nuxt/10.Dc3lvKQn.png" class="img-fluid rounded-start" alt="">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Rekayasa Perangkat Lunak</h5>
+                <p class="card-text">Konsentrasi keahlian ini mempelajari cara merancang, mengembangkan, dan memelihara perangkat lunak, termasuk aplikasi berbasis desktop, web, dan mobile. Siswa juga diajarkan teknik pembuatan gim, seperti desain level, animasi, dan pemrograman gim, menggunakan teknologi dan perangkat lunak terkini.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Jurusan TKJ-->
+        <div class="card mb-3 mt-5 bg-primary-subtle shadow card-hover" style="max-width: 900px;">
+          <div class="row g-0">
+            <div class="col-md-2">
+              <img width="100%" src="https://web-sekolah-tawny.vercel.app/_nuxt/8.BGpmPo-N.png" class="img-fluid rounded-start" alt="">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Teknik Komputer & Jaringan Komputer</h5>
+                <p class="card-text">Konsentrasi keahlian ini fokus pada penguasaan konsep dan praktik dalam membangun, mengelola, dan mengamankan jaringan komputer. Siswa akan mempelajari teknologi jaringan, administrasi server, troubleshooting, serta konfigurasi perangkat jaringan seperti router dan switch</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Jurusan JBSM-->
+        <div class="card mb-3 mt-5 bg-danger-subtle shadow card-hover" style="max-width: 900px;">
+          <div class="row g-0">
+            <div class="col-md-2">
+              <img width="100%" src="https://web-sekolah-tawny.vercel.app/_nuxt/9.pKvXDRNg.png" class="img-fluid rounded-start" alt="">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Teknik & Bisnis Sepeda Motor</h5>
+                <p class="card-text">Konsentrasi keahlian ini mempelajari teknik perawatan, perbaikan, dan modifikasi sepeda motor, sekaligus menanamkan keterampilan kewirausahaan. Siswa diajarkan cara membuka dan mengelola bisnis bengkel, termasuk aspek pemasaran dan manajemen.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Jurusan DKV-->
+        <div class="card mb-3 mt-5 bg-warning-subtle shadow card-hover" style="max-width: 900px;">
+          <div class="row g-0">
+            <div class="col-md-2">
+              <img width="100%" src="https://web-sekolah-tawny.vercel.app/_nuxt/7.BqMZVcIf.png" class="img-fluid rounded-start" alt="">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Desain Komunikasi Visual</h5>
+                <p class="card-text">Konsentrasi keahlian ini mengajarkan seni dan teknik dalam menciptakan desain visual yang komunikatif dan menarik. Materi meliputi desain grafis, fotografi, ilustrasi, dan media digital untuk kebutuhan branding, promosi, atau media publikasi.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Jurusan TOI-->
+        <div class="card mb-3 mt-5 bg-dark-subtle shadow card-hover" style="max-width: 900px;">
+          <div class="row g-0">
+            <div class="col-md-2">
+              <img width="100%" src="https://web-sekolah-tawny.vercel.app/_nuxt/6.Bex29gdO.png" class="img-fluid rounded-start" alt="">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Teknik Otomasi Industri</h5>
+                <p class="card-text">Konsentrasi keahlian ini berfokus pada teknologi otomotif yang diterapkan dalam skala industri. Siswa akan belajar tentang sistem mekanik kendaraan modern, produksi komponen otomotif, dan pengelolaan peralatan industri yang berkaitan dengan otomotif.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+    <!-- Tutupsection  Profil Jurusan -->
+    </div>
+
+      <!-- section footer -->
+       <footer class="bg-danger-subtle mt-5 py-4">
+  <div class="container">
+    <div class="row">
+      <!-- Kolom Alamat -->
+      <div class="col-md-6 mb-4">
+        <h4>Alamat</h4>
+        <iframe 
+          class="rounded w-100" 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.2131162969818!2d108.254474!3d-7.329945299999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f59eeb6bda36f%3A0xa9e724a275da6c2d!2sSMK%20Negeri%204%20Tasikmalaya!5e0!3m2!1sid!2sid!4v1755759293590!5m2!1sid!2sid" 
+          height="250" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+
+      <!-- Kolom Kontak -->
+      <div class="col-md-3 mb-4">
+        <h4>Hubungi Kami</h4>
+        <ul class="list-unstyled">
+          <li><i class="bi bi-telephone me-2"></i>(0265) 7528981</li>
+          <li><i class="bi bi-envelope me-2"></i>info@smkn4-tsm.sch.id</li>
+          <li>
+            <a class="nav-link" href="https://www.instagram.com/smkn4tsmofficial?igsh=MW94NmtlenB3NHcyNA==" target="_blank"><i class="bi bi-instagram me-2"> Instagram</i></a>
+          </li>
+          <li>
+            <a class="nav-link" href="https://www.tiktok.com/@smkn4tasikmalaya?_t=ZS-8z3YUwg8VGP&_r=1" target="_blank"><i class="bi bi-tiktok me-2"> TikTok</i></a>
+          </li>
+          <li>
+            <a class="nav-link" href="https://youtube.com/@smkn4tasikmalayamediaoffic704?si=CXvBo0l5iSKx5Oj6" target="_blank"> <i class="bi bi-youtube me-2"> YouTube</i></a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Kolom Link Lainnya -->
+      <div class="col-md-3 mb-4">
+        <h4>Link Lainnya</h4>
+        <ul class="list-unstyled">
+          <li><a class="nav-link" href="https://kemendikdasmen.go.id/" target="_blank">Kemdikbud</a></li>
+          <li><a class="nav-link" href="https://disdik.jabarprov.go.id/" target="_blank">Disdik Jabar</a></li>
+          <li><a class="nav-link" href="https://diskominfo.jabarprov.go.id" target="_blank">Provinsi Jabar</a></li>
+          <li><a class="nav-link" href="https://lms-lti.guru.kemendikdasmen.go.id/login?redirectTo=/lms-connect" target="_blank">Ruang GTK</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+  <!-- tutup section footer -->
+  
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+</body>
+</html>
